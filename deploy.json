@@ -1,0 +1,21 @@
+{
+	"files":[
+		"adarsha/aura_components",
+		"adarsha/css",
+		"adarsha/js",
+		"adarsha/index.js",
+		"adarsha/index.html",
+		"adarsha/package.json",
+		"adarsha/config.json",
+		"adarsha/LICENSE",
+		"adarsha/README.md",
+		"adarsha/jiangkangyur.ydb",
+		"kse/aura_components"
+	],
+	"darwin" :[
+		"adarsha/run.command"
+	],
+	"win32" :[
+		"adarsha/run.cmd"
+	]	
+}

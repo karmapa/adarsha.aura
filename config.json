@@ -1,0 +1,13 @@
+{
+	"db":"jiangkangyur",
+	"website":"http://karmapa.github.io",
+	"pagebreak":"pb[id]",
+	"readunit":"xml[src]",
+	"paragraphunit":"d",
+	"defaulttextwidget":"readtext@kse",
+	"searchtab":[
+		{"widget":"main-search","name":"Search"}
+		,{"widget":"about","name":"About"}
+		
+	]
+}
