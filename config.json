@@ -4,7 +4,8 @@
 	"pagebreak":"pb[id]",
 	"readunit":"xml[src]",
 	"paragraphunit":"d",
-	"defaulttextwidget":"readtext@kse",
+	"textcomponent":"readtext@kse",
+	"readercomponent":"reader",
 	"searchtab":[
 		{"widget":"main-search","name":"Search"}
 		,{"widget":"about","name":"About"}

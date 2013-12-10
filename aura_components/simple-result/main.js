@@ -32,7 +32,8 @@ define(['underscore','backbone','text!./template.tmpl',
         var start=data[0].value;
         var scrollto=pbprefix+'="'+data[1].value+'"]';
         var opts3={db:opts.db,start:ruprefix+'='+start+']'
-        ,scrollto:scrollto,name:start,query:opts.query}
+    ,scrollto:scrollto,name:start,query:opts.query,textcomponent:this.config.textcomponent,
+    reader:this.config.readercomponent}
         this.sandbox.emit("newreader",opts3);
       })
 

@@ -40,6 +40,14 @@ pb:after { content: "["  attr(id)  "]"; font-size:75%; color:blue;}
 	float:right;color:DarkOrange;font-weight:bold;font-family: Courier
 }
 
+pb[ed="dg"]:after { content: "["  attr(id)  "]"; font-size:75%; color:red;} 
+.hit {
+	float:right;color:DarkOrange;font-weight:bold;font-family: Courier
+}
+
+pb:hover {background:yellow}
+pb[ed="dg"]:hover {background:lightblue}
+
 .label-large {font-size:200%;}
 .label-medium {font-size:150%;}
 .inputcandidate {cursor:pointer;line-height:175%;font-size:120%;}
