@@ -13,7 +13,7 @@ define(['underscore','backbone','text!./template.tmpl'],
       var vol='00'+pb.id.match(/(.*?)\./)[1];
       vol=vol.substring(vol.length-3);
       var pg='00'+pb.id.match(/\.(.*?)$/)[1];
-      pg=pg.substring(vol.length-3);
+      pg=pg.substring(pg.length-4);
       if (pb.ed=='dg') {
         var img='img/dege/'+vol+'/'+vol+'-'+pg+'.png';  
       } else {

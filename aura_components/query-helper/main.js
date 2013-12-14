@@ -8,7 +8,11 @@ define(['underscore','backbone','text!./template.tmpl'],
     commands:{
       "setdb":"setdb",
       "setrank":"setrank",
-      "query.change":"querychange"
+      "query.change":"querychange",
+      "querychange":"notifyparent"
+    },
+    notifyparent:function(opts) {
+      this.sendParent("query.change",opts)
     },
     querychange:function(opts) {
       this.sendChildren("query.change",opts);
